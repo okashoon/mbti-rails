@@ -10,10 +10,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_02_08_170457) do
+ActiveRecord::Schema.define(version: 2021_02_11_160046) do
+
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
 
   create_table "answers", force: :cascade do |t|
-    t.integer "user_id"
+    t.integer "submission_id"
     t.integer "question_id"
     t.integer "score"
     t.datetime "created_at", precision: 6, null: false
@@ -25,6 +28,12 @@ ActiveRecord::Schema.define(version: 2021_02_08_170457) do
     t.integer "dimension"
     t.integer "direction"
     t.integer "meaning"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "submissions", force: :cascade do |t|
+    t.integer "user_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

@@ -1,5 +1,5 @@
 current directory: /Users/okasha/Documents/mbti/mbti-rails/vendor/bundle/ruby/2.6.0/gems/pg-1.2.3/ext
-/Users/okasha/.rbenv/versions/2.6.0/bin/ruby -I /Users/okasha/.rbenv/versions/2.6.0/lib/ruby/2.6.0 -r ./siteconf20210208-25033-opqea2.rb extconf.rb
+/Users/okasha/.rbenv/versions/2.6.0/bin/ruby -I /Users/okasha/.rbenv/versions/2.6.0/lib/ruby/2.6.0 -r ./siteconf20210209-33733-7zh274.rb extconf.rb
 checking for pg_config... yes
 Using config values from /usr/local/bin/pg_config
 checking for libpq-fe.h... yes
@@ -150,4 +150,4 @@ linking shared-object pg_ext.bundle
 
 current directory: /Users/okasha/Documents/mbti/mbti-rails/vendor/bundle/ruby/2.6.0/gems/pg-1.2.3/ext
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 pg_ext.bundle ./.gem.20210208-25033-1xi0rts
+/usr/bin/install -c -m 0755 pg_ext.bundle ./.gem.20210209-33733-1whj337

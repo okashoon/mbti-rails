@@ -1,5 +1,5 @@
 current directory: /Users/okasha/Documents/mbti/mbti-rails/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.7.2/ext/bootsnap
-/Users/okasha/.rbenv/versions/2.6.0/bin/ruby -I /Users/okasha/.rbenv/versions/2.6.0/lib/ruby/2.6.0 -r ./siteconf20210208-18224-17qmezr.rb extconf.rb
+/Users/okasha/.rbenv/versions/2.6.0/bin/ruby -I /Users/okasha/.rbenv/versions/2.6.0/lib/ruby/2.6.0 -r ./siteconf20210209-33733-1fcplil.rb extconf.rb
 creating Makefile
 
 current directory: /Users/okasha/Documents/mbti/mbti-rails/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.7.2/ext/bootsnap
@@ -12,4 +12,4 @@ linking shared-object bootsnap/bootsnap.bundle
 
 current directory: /Users/okasha/Documents/mbti/mbti-rails/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.7.2/ext/bootsnap
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20210208-18224-msfv5b/bootsnap
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20210209-33733-qt2ttp/bootsnap

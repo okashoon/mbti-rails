@@ -1,5 +1,5 @@
 current directory: /Users/okasha/Documents/mbti/mbti-rails/vendor/bundle/ruby/2.6.0/gems/sqlite3-1.4.2/ext/sqlite3
-/Users/okasha/.rbenv/versions/2.6.0/bin/ruby -I /Users/okasha/.rbenv/versions/2.6.0/lib/ruby/2.6.0 -r ./siteconf20210208-18224-t0ctru.rb extconf.rb
+/Users/okasha/.rbenv/versions/2.6.0/bin/ruby -I /Users/okasha/.rbenv/versions/2.6.0/lib/ruby/2.6.0 -r ./siteconf20210209-33733-an1sl0.rb extconf.rb
 checking for sqlite3.h... yes
 checking for pthread_create() in -lpthread... yes
 checking for -ldl... yes
@@ -60,4 +60,4 @@ linking shared-object sqlite3/sqlite3_native.bundle
 
 current directory: /Users/okasha/Documents/mbti/mbti-rails/vendor/bundle/ruby/2.6.0/gems/sqlite3-1.4.2/ext/sqlite3
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 sqlite3_native.bundle ./.gem.20210208-18224-1sghb90/sqlite3
+/usr/bin/install -c -m 0755 sqlite3_native.bundle ./.gem.20210209-33733-7o14je/sqlite3

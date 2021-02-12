@@ -4,8 +4,64 @@
 # model remove the '{}' from the fixture names and add the columns immediately
 # below each fixture, per the syntax in the comments below
 #
-one: {}
-# column: value
-#
-two: {}
-# column: value
+one:
+  id: 1
+  text: "You find it takes effort to introduce yourself to other people."
+  dimension: "EI"
+  direction: 1
+  meaning: "I"
+two:
+  id: 2
+  text: "You consider yourself more practical than creative."
+  dimension: "SN"
+  direction: -1
+  meaning: "S"
+three:
+  id: 3
+  text: "Winning a debate matters less to you than making sure no one gets upset."
+  dimension: "TF"
+  direction: 1
+  meaning: "F"
+four:
+  id: 4
+  text: "You get energized going to social events that involve many interactions."
+  dimension: "EI"
+  direction: -1
+  meaning: "E"
+five:
+  id: 5
+  text: "You often spend time exploring unrealistic and impractical yet intriguing ideas."
+  dimension: "SN"
+  direction: 1
+  meaning: "N"
+six:
+  id: 6
+  text: "Deadlines seem to you to be of relative rather than absolute importance."
+  dimension: "JP"
+  direction: 1
+  meaning: "P"
+seven:
+  id: 7
+  text: "Logic is usually more important than heart when it comes to making important decisions."
+  dimension: "TF"
+  direction: -1
+  meaning: "T"
+eight:
+  id: 8
+  text: "Your home and work environments are quite tidy."
+  dimension: "JP"
+  direction: -1
+  meaning: "J"
+nine:
+  id: 9
+  text: "You do not mind being at the center of attention."
+  dimension: "EI"
+  direction: -1
+  meaning: "E"
+ten:
+  id: 10
+  text: "Keeping your options open is more important than having a to-do list."
+  dimension: "JP"
+  direction: 1
+  meaning: "P"
+
