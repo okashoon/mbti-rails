@@ -30,8 +30,13 @@ Kernel configured for up to 4 processors.
 Processor type: x86_64h (Intel x86-64h Haswell)
 Processors active: 0 1 2 3
 Primary memory available: 8.00 gigabytes
+<<<<<<< Updated upstream:vendor/bundle/ruby/2.6.0/gems/ffi-1.14.2/ext/ffi_c/libffi-x86_64-darwin19/config.log
 Default processor set: 443 tasks, 2678 threads, 4 processors
 Load average: 16.86, Mach factor: 0.25
+=======
+Default processor set: 439 tasks, 2671 threads, 4 processors
+Load average: 2.61, Mach factor: 1.85
+>>>>>>> Stashed changes:vendor/bundle/ruby/2.6.0/gems/ffi-1.14.2/ext/ffi_c/libffi-x86_64-darwin18/config.log
 /bin/machine           = unknown
 /usr/bin/oslevel       = unknown
 /bin/universe          = unknown
@@ -820,7 +825,11 @@ configure:17485: checking for memfd_create
 configure:17485: clang -o conftest  -Wall -fexceptions   conftest.c  >&5
 Undefined symbols for architecture x86_64:
   "_memfd_create", referenced from:
+<<<<<<< Updated upstream:vendor/bundle/ruby/2.6.0/gems/ffi-1.14.2/ext/ffi_c/libffi-x86_64-darwin19/config.log
       _main in conftest-2e4887.o
+=======
+      _main in conftest-ae304d.o
+>>>>>>> Stashed changes:vendor/bundle/ruby/2.6.0/gems/ffi-1.14.2/ext/ffi_c/libffi-x86_64-darwin18/config.log
 ld: symbol(s) not found for architecture x86_64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 configure:17485: $? = 1

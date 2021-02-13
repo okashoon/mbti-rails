@@ -1,5 +1,5 @@
 current directory: /Users/okasha/Documents/mbti/mbti-rails/vendor/bundle/ruby/2.6.0/gems/msgpack-1.4.2/ext/msgpack
-/Users/okasha/.rbenv/versions/2.6.0/bin/ruby -I /Users/okasha/.rbenv/versions/2.6.0/lib/ruby/2.6.0 -r ./siteconf20210209-33733-dkavyl.rb extconf.rb
+/Users/okasha/.rbenv/versions/2.6.0/bin/ruby -I /Users/okasha/.rbenv/versions/2.6.0/lib/ruby/2.6.0 -r ./siteconf20210213-27735-xc91o2.rb extconf.rb
 checking for ruby/st.h... yes
 checking for st.h... yes
 checking for rb_str_replace() in ruby.h... yes
@@ -40,4 +40,4 @@ linking shared-object msgpack/msgpack.bundle
 
 current directory: /Users/okasha/Documents/mbti/mbti-rails/vendor/bundle/ruby/2.6.0/gems/msgpack-1.4.2/ext/msgpack
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 msgpack.bundle ./.gem.20210209-33733-1kr5mxj/msgpack
+/usr/bin/install -c -m 0755 msgpack.bundle ./.gem.20210213-27735-djw1kr/msgpack

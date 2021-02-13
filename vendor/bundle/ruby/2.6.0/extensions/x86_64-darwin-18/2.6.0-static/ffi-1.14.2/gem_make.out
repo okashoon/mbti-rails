@@ -1,5 +1,5 @@
 current directory: /Users/okasha/Documents/mbti/mbti-rails/vendor/bundle/ruby/2.6.0/gems/ffi-1.14.2/ext/ffi_c
-/Users/okasha/.rbenv/versions/2.6.0/bin/ruby -I /Users/okasha/.rbenv/versions/2.6.0/lib/ruby/2.6.0 -r ./siteconf20210209-33733-adgrh.rb extconf.rb
+/Users/okasha/.rbenv/versions/2.6.0/bin/ruby -I /Users/okasha/.rbenv/versions/2.6.0/lib/ruby/2.6.0 -r ./siteconf20210213-27735-430gdy.rb extconf.rb
 checking for ffi_prep_closure_loc() in -lffi... no
 checking for ffi_prep_closure_loc() in -llibffi... no
 checking for ffi_prep_closure_loc() in -llibffi-8... no
@@ -123,4 +123,4 @@ compiling Types.c
 compiling Variadic.c
 compiling ffi.c
 linking shared-object ffi_c.bundle
-/usr/bin/install -c -m 0755 ffi_c.bundle ./.gem.20210209-33733-1b6nkqp
+/usr/bin/install -c -m 0755 ffi_c.bundle ./.gem.20210213-27735-13ayz6

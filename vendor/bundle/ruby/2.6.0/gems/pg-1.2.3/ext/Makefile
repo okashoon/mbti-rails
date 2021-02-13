@@ -31,8 +31,13 @@ rubyhdrdir = $(includedir)/$(RUBY_VERSION_NAME)
 vendorarchdir = $(vendorlibdir)/$(sitearch)
 vendorlibdir = $(vendordir)/$(ruby_version)
 vendordir = $(rubylibprefix)/vendor_ruby
+<<<<<<< Updated upstream
 sitearchdir = $(DESTDIR)./.gem.20210213-20019-1i0xkic
 sitelibdir = $(DESTDIR)./.gem.20210213-20019-1i0xkic
+=======
+sitearchdir = $(DESTDIR)./.gem.20210213-27735-1frhoy5
+sitelibdir = $(DESTDIR)./.gem.20210213-27735-1frhoy5
+>>>>>>> Stashed changes
 sitedir = $(rubylibprefix)/site_ruby
 rubyarchdir = $(rubylibdir)/$(arch)
 rubylibdir = $(rubylibprefix)/$(ruby_version)
