@@ -18,4 +18,9 @@ class SubmissionsController < ApplicationController
         end
         render json:{message:"success",result:submission.calculate_mbti}
     end
+
+    def index
+        @submissions = Submission.all
+        render json: @submissions,:include => [:user,:answers], :methods => :calculate_mbti
+    end
 end
