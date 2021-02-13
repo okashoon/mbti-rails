@@ -26,10 +26,8 @@ class Submission < ApplicationRecord
         dimensions_details.each do |dimension,result|
             leaning_end_index = result.find_index(result.max)
             leaning_end = dimension[leaning_end_index]
-            pp leaning_end
             final_result.push(leaning_end)
         end
-        pp dimensions_details
         return {final_result:final_result,dimensions_details:dimensions_details}
     end
 end

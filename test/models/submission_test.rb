@@ -13,7 +13,7 @@ class SubmissionTest < ActiveSupport::TestCase
       Answer.create({submission_id:submission.id, question_id:question_id, score: score})
     end
     result = submission.calculate_mbti
-    assert_equal result.join(), "ENTP"
+    assert_equal result[:final_result].join(), "ENTP"
   end
   #test case B
   test "calculate mbti should return ESTJ" do
@@ -24,7 +24,7 @@ class SubmissionTest < ActiveSupport::TestCase
       Answer.create({submission_id:submission.id, question_id:question_id, score: score})
     end
     result = submission.calculate_mbti
-    assert_equal result.join(), "ESTJ"
+    assert_equal result[:final_result].join(), "ESTJ"
   end
   #test case D
   test "calculate mbti should return INFP" do
@@ -35,7 +35,7 @@ class SubmissionTest < ActiveSupport::TestCase
       Answer.create({submission_id:submission.id, question_id:question_id, score: score})
     end
     result = submission.calculate_mbti
-    assert_equal result.join(), "INFP"
+    assert_equal result[:final_result].join(), "INFP"
   end
   #test case E
   test "calculate mbti should return ISFP" do
@@ -46,7 +46,7 @@ class SubmissionTest < ActiveSupport::TestCase
       Answer.create({submission_id:submission.id, question_id:question_id, score: score})
     end
     result = submission.calculate_mbti
-    assert_equal result.join(), "ISFP"
+    assert_equal result[:final_result].join(), "ISFP"
   end
   #test case F
   test "calculate mbti should return ESTJ 2" do
@@ -57,7 +57,7 @@ class SubmissionTest < ActiveSupport::TestCase
       Answer.create({submission_id:submission.id, question_id:question_id, score: score})
     end
     result = submission.calculate_mbti
-    assert_equal result.join(), "ESTJ"
+    assert_equal result[:final_result].join(), "ESTJ"
   end
   #test case G
   test "calculate mbti should return ISTJ" do
@@ -68,7 +68,7 @@ class SubmissionTest < ActiveSupport::TestCase
       Answer.create({submission_id:submission.id, question_id:question_id, score: score})
     end
     result = submission.calculate_mbti
-    assert_equal result.join(), "ISTJ"
+    assert_equal result[:final_result].join(), "ISTJ"
   end
   #test case H
   test "calculate mbti should return ESTP" do
@@ -79,6 +79,6 @@ class SubmissionTest < ActiveSupport::TestCase
       Answer.create({submission_id:submission.id, question_id:question_id, score: score})
     end
     result = submission.calculate_mbti
-    assert_equal result.join(), "ESTP"
+    assert_equal result[:final_result].join(), "ESTP"
   end
 end
