@@ -30,13 +30,13 @@ Kernel configured for up to 4 processors.
 Processor type: x86_64h (Intel x86-64h Haswell)
 Processors active: 0 1 2 3
 Primary memory available: 8.00 gigabytes
-Default processor set: 414 tasks, 2173 threads, 4 processors
-Load average: 2.85, Mach factor: 1.88
+Default processor set: 443 tasks, 2678 threads, 4 processors
+Load average: 16.86, Mach factor: 0.25
 /bin/machine           = unknown
 /usr/bin/oslevel       = unknown
 /bin/universe          = unknown
 
-PATH: /Users/okasha/.rbenv/versions/2.6.0/bin
+PATH: /Users/okasha/.rbenv/versions/2.6.6/bin
 PATH: /usr/local/Cellar/rbenv/1.1.2/libexec
 PATH: /Users/okasha/.rbenv/plugins/ruby-build/bin
 PATH: /usr/local/opt/python@3.7/bin
@@ -820,7 +820,7 @@ configure:17485: checking for memfd_create
 configure:17485: clang -o conftest  -Wall -fexceptions   conftest.c  >&5
 Undefined symbols for architecture x86_64:
   "_memfd_create", referenced from:
-      _main in conftest-c2d073.o
+      _main in conftest-2e4887.o
 ld: symbol(s) not found for architecture x86_64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 configure:17485: $? = 1
