@@ -16,6 +16,6 @@ class SubmissionsController < ApplicationController
         for question in params["questions"]
             Answer.create({submission_id:submission.id,question_id:question["id"],score:question["answer"]})
         end
-        render json:{message:"submitted"}
+        render json:{message:"success",result:submission.calculate_mbti}
     end
 end

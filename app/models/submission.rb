@@ -3,7 +3,7 @@ class Submission < ApplicationRecord
     has_many :answers
 
     def calculate_mbti
-        dimensions_total_score = {
+        dimensions_details = {
             "EI"=>[0,0],
             "SN"=>[0,0],
             "TF"=>[0,0],
@@ -18,18 +18,18 @@ class Submission < ApplicationRecord
                 dimension_end = 0
                 dimension_opposite_end = 1   
             end
-            dimensions_total_score[question.dimension][dimension_end]+=answer.score
-            dimensions_total_score[question.dimension][dimension_opposite_end]+= 8-answer.score
+            dimensions_details[question.dimension][dimension_end]+=answer.score
+            dimensions_details[question.dimension][dimension_opposite_end]+= 8-answer.score
         end
-        # pp dimensions_total_score
+        # pp dimensions_details
         final_result = []
-        dimensions_total_score.each do |dimension,result|
+        dimensions_details.each do |dimension,result|
             leaning_end_index = result.find_index(result.max)
             leaning_end = dimension[leaning_end_index]
             pp leaning_end
             final_result.push(leaning_end)
         end
-        pp dimensions_total_score
-        return final_result
+        pp dimensions_details
+        return {final_result:final_result,dimensions_details:dimensions_details}
     end
 end
